@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LDu-wt-14s">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5Rv-lz-TeC">
+            <objects>
+                <viewController id="LDu-wt-14s" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q3T-id-INN"/>
+                        <viewControllerLayoutGuide type="bottom" id="eA6-mq-q9U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RaN-PG-W6E">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsN-4L-8ak">
+                                <rect key="frame" x="143" y="319" width="183" height="52"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="PLAY" backgroundImage="label.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="CsN-4L-8ak" id="ucQ-RR-nFt">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img.png" translatesAutoresizingMaskIntoConstraints="NO" id="8VU-qn-EXe">
+                                <rect key="frame" x="62" y="88" width="345" height="187"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bricks.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rnd-Fp-KBq">
+                                <rect key="frame" x="114" y="410" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gwj-xW-DLe">
+                                <rect key="frame" x="114" y="559" width="91" height="47"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v48-hB-aRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-460" y="251"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVE-Jj-pq4">
+                                <rect key="frame" x="26" y="550" width="52" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="q26-Sm-Bxw" eventType="touchUpInside" id="lnL-Iu-G3i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mot-eq-AjA">
+                                <rect key="frame" x="86" y="550" width="67" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Pause"/>
+                                <connections>
+                                    <action selector="stopAnimation:" destination="q26-Sm-Bxw" eventType="touchUpInside" id="jHz-wf-fcF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfV-4b-Jar">
+                                <rect key="frame" x="283" y="556" width="71" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ia-zj-rbh">
+                                <rect key="frame" x="161" y="550" width="102" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="PlayAgain"/>
+                                <connections>
+                                    <segue destination="LDu-wt-14s" kind="popoverPresentation" popoverAnchorView="4ia-zj-rbh" id="Ece-O4-KH9">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q26-Sm-Bxw" customClass="GameScreen">
+                                <rect key="frame" x="20" y="63" width="560" height="473"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="Score" destination="XNa-HW-ocV" id="5nc-eg-sVP"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-HW-ocV">
+                                <rect key="frame" x="346" y="559" width="50" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pfV-4b-Jar" secondAttribute="bottom" constant="21" id="5EA-95-jiZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q26-Sm-Bxw" secondAttribute="trailing" id="5ep-sI-DPT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eVE-Jj-pq4" secondAttribute="bottom" constant="20" id="GUm-hj-b6d"/>
+                            <constraint firstItem="q26-Sm-Bxw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="6" id="KHc-MW-id2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XNa-HW-ocV" secondAttribute="bottom" constant="20" id="T2V-F3-MXb"/>
+                            <constraint firstItem="eVE-Jj-pq4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="ZxF-e3-EjQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mot-eq-AjA" secondAttribute="bottom" constant="20" id="hFg-rF-8FC"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="q26-Sm-Bxw" secondAttribute="leading" id="iHI-2h-bnP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q26-Sm-Bxw" secondAttribute="bottom" constant="67" id="mVq-he-X4R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ia-zj-rbh" secondAttribute="bottom" constant="20" id="ugC-1c-oj8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameScreen" destination="q26-Sm-Bxw" id="vYL-7c-pnR"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="257" y="397"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bricks.png" width="372" height="187"/>
+        <image name="img.png" width="983" height="561"/>
+        <image name="label.png" width="500" height="207"/>
+        <image name="paddle.png" width="112" height="79"/>
+    </resources>
+</document>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ysC-lf-qhf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="TTTViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U1k-wW-Zup"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uha-QI-VWD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yE5-Vg-ZR7" userLabel="Button0">
+                                <rect key="frame" x="37" y="131" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ORe-dX-ows"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2LC-pd-bLz" userLabel="Button1">
+                                <rect key="frame" x="122" y="131" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1gC-Qu-RXw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDM-k7-ik0" userLabel="Button2">
+                                <rect key="frame" x="207" y="131" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nh8-du-nJt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjU-OZ-W9e" userLabel="Button3">
+                                <rect key="frame" x="37" y="213" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rjv-4s-As9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95d-vL-fwW" userLabel="Button4">
+                                <rect key="frame" x="122" y="213" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UZK-ER-aDS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lc0-1z-q6b" userLabel="Button5">
+                                <rect key="frame" x="207" y="213" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gf0-4E-Njo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVO-zF-Ojc" userLabel="Button6">
+                                <rect key="frame" x="37" y="295" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BGI-bJ-fgB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Py9-Rq-6gj" userLabel="Button7">
+                                <rect key="frame" x="122" y="295" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="x6K-dX-aC6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LM-Rw-6uz" userLabel="Button8">
+                                <rect key="frame" x="207" y="295" width="77" height="74"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gridButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KCv-du-ZjD"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVp-1P-aKU" userLabel="Top Separator">
+                                <rect key="frame" x="41" y="213" width="239" height="2"/>
+                                <color key="backgroundColor" red="0.41433483195587539" green="0.93507339015151514" blue="0.46964801453506572" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfN-iS-aGY" userLabel="Bottom Separator">
+                                <rect key="frame" x="41" y="290" width="239" height="2"/>
+                                <color key="backgroundColor" red="0.41433483199999999" green="0.93507339020000002" blue="0.46964801449999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLT-Wu-Rqu" userLabel="Left Separator">
+                                <rect key="frame" x="116" y="139" width="2" height="240"/>
+                                <color key="backgroundColor" red="0.41433483199999999" green="0.93507339020000002" blue="0.46964801449999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMd-dl-I3d" userLabel="Right Separator">
+                                <rect key="frame" x="207" y="139" width="2" height="240"/>
+                                <color key="backgroundColor" red="0.41433483199999999" green="0.93507339020000002" blue="0.46964801449999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ely-yd-Nqr">
+                                <rect key="frame" x="37" y="407" width="94" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Play as O">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="oButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fnZ-2H-7Fj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVj-X3-2j4">
+                                <rect key="frame" x="190" y="407" width="94" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Play as X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="xButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ino-yZ-U5s"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fb9-37-HKK">
+                                <rect key="frame" x="139" y="532" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X &amp; O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="LuL-SL-4FU">
+                                <rect key="frame" x="41" y="38" width="243" height="52"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                <color key="textColor" red="0.36118782970000002" green="0.79352114900000004" blue="0.76174000529999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.36118782965488716" green="0.79352114898989901" blue="0.76174000531000907" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKQ-Hp-jVZ">
+                                <rect key="frame" x="109" y="445" width="106" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Reset Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="v8R-KX-MXB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1150010783" green="0.17801574810000001" blue="0.2822166982" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="button0" destination="yE5-Vg-ZR7" id="8V3-gr-TIQ"/>
+                        <outlet property="button1" destination="2LC-pd-bLz" id="q5c-aJ-KPW"/>
+                        <outlet property="button2" destination="hDM-k7-ik0" id="Izk-OO-bhU"/>
+                        <outlet property="button3" destination="HjU-OZ-W9e" id="N0X-IV-MYs"/>
+                        <outlet property="button4" destination="95d-vL-fwW" id="PiC-cy-8KG"/>
+                        <outlet property="button5" destination="Lc0-1z-q6b" id="YF0-6t-QQx"/>
+                        <outlet property="button6" destination="EVO-zF-Ojc" id="YKO-N7-Iyw"/>
+                        <outlet property="button7" destination="Py9-Rq-6gj" id="jMA-jw-7A0"/>
+                        <outlet property="button8" destination="6LM-Rw-6uz" id="Ahr-10-cce"/>
+                        <outlet property="oButton" destination="Ely-yd-Nqr" id="1Vr-tO-wD5"/>
+                        <outlet property="resetButton" destination="WKQ-Hp-jVZ" id="Ybb-6p-59g"/>
+                        <outlet property="titleLabel" destination="LuL-SL-4FU" id="9KJ-De-OMR"/>
+                        <outlet property="xButton" destination="TVj-X3-2j4" id="p1q-8x-DdP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="52"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZEh-S0-TdF">
+            <objects>
+                <viewController id="ysC-lf-qhf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iQN-A3-Km8"/>
+                        <viewControllerLayoutGuide type="bottom" id="luE-UC-4Xq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0QQ-3g-rlA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X &amp; O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="TmS-v9-z9q">
+                                <rect key="frame" x="20" y="41" width="243" height="52"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                <color key="textColor" red="0.36118782970000002" green="0.79352114900000004" blue="0.76174000529999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.36118782970000002" green="0.79352114900000004" blue="0.76174000529999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg1.png" translatesAutoresizingMaskIntoConstraints="NO" id="PR1-80-RAA">
+                                <rect key="frame" x="32" y="174" width="243" height="220"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogu-kC-B9Q">
+                                <rect key="frame" x="88" y="445" width="106" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="diq-CQ-XuT"/>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="PeD-yS-BiP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.04134615384615381" green="0.04134615384615381" blue="0.04134615384615381" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FEj-kA-1LN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-235" y="52"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg1.png" width="500" height="483"/>
+    </resources>
+</document>

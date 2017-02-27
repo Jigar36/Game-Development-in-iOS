@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8781D91CBABEEA00DC2396 /* BetterSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8781D81CBABEEA00DC2396 /* BetterSegmentedControl.swift */; };
+		6FA40CEF1CB2CE0400AB50E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40CEE1CB2CE0400AB50E9 /* main.m */; };
+		6FA40CF21CB2CE0400AB50E9 /* DTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40CF11CB2CE0400AB50E9 /* DTSAppDelegate.m */; };
+		6FA40CF51CB2CE0400AB50E9 /* DTSIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40CF41CB2CE0400AB50E9 /* DTSIntroViewController.m */; };
+		6FA40CF81CB2CE0400AB50E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA40CF61CB2CE0400AB50E9 /* Main.storyboard */; };
+		6FA40CFA1CB2CE0400AB50E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA40CF91CB2CE0400AB50E9 /* Assets.xcassets */; };
+		6FA40CFD1CB2CE0400AB50E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA40CFB1CB2CE0400AB50E9 /* LaunchScreen.storyboard */; };
+		6FA40D081CB2D89400AB50E9 /* DTSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40D071CB2D89400AB50E9 /* DTSGame.m */; };
+		6FA40D0B1CB2E4C500AB50E9 /* DTSGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40D0A1CB2E4C500AB50E9 /* DTSGameView.m */; };
+		6FA40D0F1CB2EB8700AB50E9 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40D0E1CB2EB8700AB50E9 /* UIColor+Hex.m */; };
+		6FA40D141CB4195900AB50E9 /* DTSAIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40D131CB4195900AB50E9 /* DTSAIPlayer.m */; };
+		6FA40D191CB41E3900AB50E9 /* DTSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40D181CB41E3900AB50E9 /* DTSGameViewController.m */; };
+		6FA40D221CB493AD00AB50E9 /* UIColor+DTSColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA40D211CB493AD00AB50E9 /* UIColor+DTSColors.m */; };
+		6FC93EC51CB6CFD10039B7F2 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93EC41CB6CFD10039B7F2 /* SAConfettiView.swift */; };
+		6FC93ECA1CB6CFDE0039B7F2 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC93EC61CB6CFDE0039B7F2 /* confetti.png */; };
+		6FC93EE01CB6CFEE0039B7F2 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93ED01CB6CFEE0039B7F2 /* SCLAlertView.m */; settings = {COMPILER_FLAGS = "-Wno-conversion -Wno-implicit-retain-self -Wno-shadow -Wno-sign-compare"; }; };
+		6FC93EE11CB6CFEE0039B7F2 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93ED21CB6CFEE0039B7F2 /* SCLAlertViewResponder.m */; };
+		6FC93EE21CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93ED41CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.m */; settings = {COMPILER_FLAGS = "-Wno-conversion"; }; };
+		6FC93EE31CB6CFEE0039B7F2 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93ED61CB6CFEE0039B7F2 /* SCLButton.m */; };
+		6FC93EE41CB6CFEE0039B7F2 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93ED91CB6CFEE0039B7F2 /* SCLSwitchView.m */; settings = {COMPILER_FLAGS = "-Wno-conversion"; }; };
+		6FC93EE51CB6CFEE0039B7F2 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93EDB1CB6CFEE0039B7F2 /* SCLTextView.m */; };
+		6FC93EE61CB6CFEE0039B7F2 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93EDD1CB6CFEE0039B7F2 /* SCLTimerDisplay.m */; settings = {COMPILER_FLAGS = "-Wno-conversion"; }; };
+		6FC93EE71CB6CFEE0039B7F2 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC93EDF1CB6CFEE0039B7F2 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-Wno-conversion"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FC93EF61CB70A330039B7F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F8781D81CBABEEA00DC2396 /* BetterSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControl.swift; path = BetterSegmentedControl/Pod/Classes/BetterSegmentedControl.swift; sourceTree = SOURCE_ROOT; };
+		6FA40CEA1CB2CE0400AB50E9 /* Dots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA40CEE1CB2CE0400AB50E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FA40CF01CB2CE0400AB50E9 /* DTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSAppDelegate.h; sourceTree = "<group>"; };
+		6FA40CF11CB2CE0400AB50E9 /* DTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSAppDelegate.m; sourceTree = "<group>"; };
+		6FA40CF31CB2CE0400AB50E9 /* DTSIntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSIntroViewController.h; sourceTree = "<group>"; };
+		6FA40CF41CB2CE0400AB50E9 /* DTSIntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSIntroViewController.m; sourceTree = "<group>"; };
+		6FA40CF71CB2CE0400AB50E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FA40CF91CB2CE0400AB50E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FA40CFC1CB2CE0400AB50E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FA40CFE1CB2CE0400AB50E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA40D041CB2CE1E00AB50E9 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		6FA40D061CB2D89400AB50E9 /* DTSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSGame.h; sourceTree = "<group>"; };
+		6FA40D071CB2D89400AB50E9 /* DTSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSGame.m; sourceTree = "<group>"; };
+		6FA40D091CB2E4C500AB50E9 /* DTSGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSGameView.h; sourceTree = "<group>"; };
+		6FA40D0A1CB2E4C500AB50E9 /* DTSGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSGameView.m; sourceTree = "<group>"; };
+		6FA40D0D1CB2EB8700AB50E9 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6FA40D0E1CB2EB8700AB50E9 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6FA40D111CB2FF8400AB50E9 /* DTSGameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSGameDelegate.h; sourceTree = "<group>"; };
+		6FA40D121CB4195900AB50E9 /* DTSAIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSAIPlayer.h; sourceTree = "<group>"; };
+		6FA40D131CB4195900AB50E9 /* DTSAIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSAIPlayer.m; sourceTree = "<group>"; };
+		6FA40D171CB41E3900AB50E9 /* DTSGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSGameViewController.h; sourceTree = "<group>"; };
+		6FA40D181CB41E3900AB50E9 /* DTSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSGameViewController.m; sourceTree = "<group>"; };
+		6FA40D1B1CB42B1900AB50E9 /* DTSTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSTypes.h; sourceTree = "<group>"; };
+		6FA40D201CB493AD00AB50E9 /* UIColor+DTSColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DTSColors.h"; sourceTree = "<group>"; };
+		6FA40D211CB493AD00AB50E9 /* UIColor+DTSColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DTSColors.m"; sourceTree = "<group>"; };
+		6FA40D231CB4953C00AB50E9 /* DTSGameViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSGameViewDelegate.h; sourceTree = "<group>"; };
+		6FC93EC31CB6CFD00039B7F2 /* Dots-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dots-Bridging-Header.h"; sourceTree = "<group>"; };
+		6FC93EC41CB6CFD10039B7F2 /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = SAConfettiView/Pod/Classes/SAConfettiView.swift; sourceTree = SOURCE_ROOT; };
+		6FC93EC61CB6CFDE0039B7F2 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = confetti.png; path = SAConfettiView/Pod/Assets/confetti.png; sourceTree = SOURCE_ROOT; };
+		6FC93ECF1CB6CFEE0039B7F2 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView/SCLAlertView.h; sourceTree = SOURCE_ROOT; };
+		6FC93ED01CB6CFEE0039B7F2 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView/SCLAlertView.m; sourceTree = SOURCE_ROOT; };
+		6FC93ED11CB6CFEE0039B7F2 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertView/SCLAlertViewResponder.h; sourceTree = SOURCE_ROOT; };
+		6FC93ED21CB6CFEE0039B7F2 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertView/SCLAlertViewResponder.m; sourceTree = SOURCE_ROOT; };
+		6FC93ED31CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = SOURCE_ROOT; };
+		6FC93ED41CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = SOURCE_ROOT; };
+		6FC93ED51CB6CFEE0039B7F2 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLAlertView/SCLButton.h; sourceTree = SOURCE_ROOT; };
+		6FC93ED61CB6CFEE0039B7F2 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLAlertView/SCLButton.m; sourceTree = SOURCE_ROOT; };
+		6FC93ED71CB6CFEE0039B7F2 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLAlertView/SCLMacros.h; sourceTree = SOURCE_ROOT; };
+		6FC93ED81CB6CFEE0039B7F2 /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLSwitchView.h; path = SCLAlertView/SCLAlertView/SCLSwitchView.h; sourceTree = SOURCE_ROOT; };
+		6FC93ED91CB6CFEE0039B7F2 /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLSwitchView.m; path = SCLAlertView/SCLAlertView/SCLSwitchView.m; sourceTree = SOURCE_ROOT; };
+		6FC93EDA1CB6CFEE0039B7F2 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLTextView.h; path = SCLAlertView/SCLAlertView/SCLTextView.h; sourceTree = SOURCE_ROOT; };
+		6FC93EDB1CB6CFEE0039B7F2 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLTextView.m; path = SCLAlertView/SCLAlertView/SCLTextView.m; sourceTree = SOURCE_ROOT; };
+		6FC93EDC1CB6CFEE0039B7F2 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLTimerDisplay.h; path = SCLAlertView/SCLAlertView/SCLTimerDisplay.h; sourceTree = SOURCE_ROOT; };
+		6FC93EDD1CB6CFEE0039B7F2 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLTimerDisplay.m; path = SCLAlertView/SCLAlertView/SCLTimerDisplay.m; sourceTree = SOURCE_ROOT; };
+		6FC93EDE1CB6CFEE0039B7F2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/SCLAlertView/UIImage+ImageEffects.h"; sourceTree = SOURCE_ROOT; };
+		6FC93EDF1CB6CFEE0039B7F2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/SCLAlertView/UIImage+ImageEffects.m"; sourceTree = SOURCE_ROOT; };
+		6FC93EEE1CB709DC0039B7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA40CE71CB2CE0400AB50E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F8781D71CBABEE100DC2396 /* BetterSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				6F8781D81CBABEEA00DC2396 /* BetterSegmentedControl.swift */,
+			);
+			name = BetterSegmentedControl;
+			sourceTree = "<group>";
+		};
+		6FA40CE11CB2CE0400AB50E9 = {
+			isa = PBXGroup;
+			children = (
+				6FA40CEC1CB2CE0400AB50E9 /* Dots */,
+				6FC93EED1CB709DC0039B7F2 /* SAConfettiView */,
+				6FA40CEB1CB2CE0400AB50E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA40CEB1CB2CE0400AB50E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40CEA1CB2CE0400AB50E9 /* Dots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA40CEC1CB2CE0400AB50E9 /* Dots */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40CF01CB2CE0400AB50E9 /* DTSAppDelegate.h */,
+				6FA40CF11CB2CE0400AB50E9 /* DTSAppDelegate.m */,
+				6FA40D151CB41E2600AB50E9 /* Intro Screen */,
+				6FA40D161CB41E2C00AB50E9 /* Game */,
+				6FA40D101CB2EC7100AB50E9 /* UIColor+Extensions */,
+				6FC93EC11CB6CFB20039B7F2 /* External */,
+				6FA40D051CB2CE5A00AB50E9 /* Assets */,
+				6FA40CED1CB2CE0400AB50E9 /* Supporting Files */,
+			);
+			name = Dots;
+			path = "p07-ferber";
+			sourceTree = "<group>";
+		};
+		6FA40CED1CB2CE0400AB50E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40CEE1CB2CE0400AB50E9 /* main.m */,
+				6FA40CFE1CB2CE0400AB50E9 /* Info.plist */,
+				6FA40D041CB2CE1E00AB50E9 /* Warnings.xcconfig */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FA40D051CB2CE5A00AB50E9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40CFB1CB2CE0400AB50E9 /* LaunchScreen.storyboard */,
+				6FA40CF61CB2CE0400AB50E9 /* Main.storyboard */,
+				6FA40CF91CB2CE0400AB50E9 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6FA40D101CB2EC7100AB50E9 /* UIColor+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40D0D1CB2EB8700AB50E9 /* UIColor+Hex.h */,
+				6FA40D0E1CB2EB8700AB50E9 /* UIColor+Hex.m */,
+				6FA40D201CB493AD00AB50E9 /* UIColor+DTSColors.h */,
+				6FA40D211CB493AD00AB50E9 /* UIColor+DTSColors.m */,
+			);
+			name = "UIColor+Extensions";
+			sourceTree = "<group>";
+		};
+		6FA40D151CB41E2600AB50E9 /* Intro Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40CF31CB2CE0400AB50E9 /* DTSIntroViewController.h */,
+				6FA40CF41CB2CE0400AB50E9 /* DTSIntroViewController.m */,
+			);
+			name = "Intro Screen";
+			sourceTree = "<group>";
+		};
+		6FA40D161CB41E2C00AB50E9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40D171CB41E3900AB50E9 /* DTSGameViewController.h */,
+				6FA40D181CB41E3900AB50E9 /* DTSGameViewController.m */,
+				6FA40D1C1CB432D100AB50E9 /* Game */,
+				6FA40D1F1CB432E700AB50E9 /* Game View */,
+				6FA40D1D1CB432D600AB50E9 /* AI */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		6FA40D1C1CB432D100AB50E9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40D1B1CB42B1900AB50E9 /* DTSTypes.h */,
+				6FA40D111CB2FF8400AB50E9 /* DTSGameDelegate.h */,
+				6FA40D061CB2D89400AB50E9 /* DTSGame.h */,
+				6FA40D071CB2D89400AB50E9 /* DTSGame.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		6FA40D1D1CB432D600AB50E9 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40D121CB4195900AB50E9 /* DTSAIPlayer.h */,
+				6FA40D131CB4195900AB50E9 /* DTSAIPlayer.m */,
+			);
+			name = AI;
+			sourceTree = "<group>";
+		};
+		6FA40D1F1CB432E700AB50E9 /* Game View */ = {
+			isa = PBXGroup;
+			children = (
+				6FA40D231CB4953C00AB50E9 /* DTSGameViewDelegate.h */,
+				6FA40D091CB2E4C500AB50E9 /* DTSGameView.h */,
+				6FA40D0A1CB2E4C500AB50E9 /* DTSGameView.m */,
+			);
+			name = "Game View";
+			sourceTree = "<group>";
+		};
+		6FC93EC11CB6CFB20039B7F2 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				6F8781D71CBABEE100DC2396 /* BetterSegmentedControl */,
+				6FC93EC21CB6CFC70039B7F2 /* SAConfettiView */,
+				6FC93ECE1CB6CFE10039B7F2 /* SCLAlertView */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		6FC93EC21CB6CFC70039B7F2 /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				6FC93EC41CB6CFD10039B7F2 /* SAConfettiView.swift */,
+				6FC93EC31CB6CFD00039B7F2 /* Dots-Bridging-Header.h */,
+				6FC93EC61CB6CFDE0039B7F2 /* confetti.png */,
+			);
+			name = SAConfettiView;
+			sourceTree = "<group>";
+		};
+		6FC93ECE1CB6CFE10039B7F2 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6FC93ECF1CB6CFEE0039B7F2 /* SCLAlertView.h */,
+				6FC93ED01CB6CFEE0039B7F2 /* SCLAlertView.m */,
+				6FC93ED11CB6CFEE0039B7F2 /* SCLAlertViewResponder.h */,
+				6FC93ED21CB6CFEE0039B7F2 /* SCLAlertViewResponder.m */,
+				6FC93ED31CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.h */,
+				6FC93ED41CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.m */,
+				6FC93ED51CB6CFEE0039B7F2 /* SCLButton.h */,
+				6FC93ED61CB6CFEE0039B7F2 /* SCLButton.m */,
+				6FC93ED71CB6CFEE0039B7F2 /* SCLMacros.h */,
+				6FC93ED81CB6CFEE0039B7F2 /* SCLSwitchView.h */,
+				6FC93ED91CB6CFEE0039B7F2 /* SCLSwitchView.m */,
+				6FC93EDA1CB6CFEE0039B7F2 /* SCLTextView.h */,
+				6FC93EDB1CB6CFEE0039B7F2 /* SCLTextView.m */,
+				6FC93EDC1CB6CFEE0039B7F2 /* SCLTimerDisplay.h */,
+				6FC93EDD1CB6CFEE0039B7F2 /* SCLTimerDisplay.m */,
+				6FC93EDE1CB6CFEE0039B7F2 /* UIImage+ImageEffects.h */,
+				6FC93EDF1CB6CFEE0039B7F2 /* UIImage+ImageEffects.m */,
+			);
+			name = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		6FC93EED1CB709DC0039B7F2 /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				6FC93EEE1CB709DC0039B7F2 /* Info.plist */,
+			);
+			path = SAConfettiView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA40CE91CB2CE0400AB50E9 /* Dots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA40D011CB2CE0400AB50E9 /* Build configuration list for PBXNativeTarget "Dots" */;
+			buildPhases = (
+				6FA40CE61CB2CE0400AB50E9 /* Sources */,
+				6FA40CE71CB2CE0400AB50E9 /* Frameworks */,
+				6FA40CE81CB2CE0400AB50E9 /* Resources */,
+				6FC93EF61CB70A330039B7F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dots;
+			productName = "p07-ferber";
+			productReference = 6FA40CEA1CB2CE0400AB50E9 /* Dots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA40CE21CB2CE0400AB50E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DTS;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iferber1;
+				TargetAttributes = {
+					6FA40CE91CB2CE0400AB50E9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6G45XUS244;
+					};
+				};
+			};
+			buildConfigurationList = 6FA40CE51CB2CE0400AB50E9 /* Build configuration list for PBXProject "p07-ferber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA40CE11CB2CE0400AB50E9;
+			productRefGroup = 6FA40CEB1CB2CE0400AB50E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA40CE91CB2CE0400AB50E9 /* Dots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA40CE81CB2CE0400AB50E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA40CFD1CB2CE0400AB50E9 /* LaunchScreen.storyboard in Resources */,
+				6FA40CFA1CB2CE0400AB50E9 /* Assets.xcassets in Resources */,
+				6FA40CF81CB2CE0400AB50E9 /* Main.storyboard in Resources */,
+				6FC93ECA1CB6CFDE0039B7F2 /* confetti.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA40CE61CB2CE0400AB50E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC93EE01CB6CFEE0039B7F2 /* SCLAlertView.m in Sources */,
+				6FA40CF51CB2CE0400AB50E9 /* DTSIntroViewController.m in Sources */,
+				6FA40D141CB4195900AB50E9 /* DTSAIPlayer.m in Sources */,
+				6FA40D0F1CB2EB8700AB50E9 /* UIColor+Hex.m in Sources */,
+				6FC93EE61CB6CFEE0039B7F2 /* SCLTimerDisplay.m in Sources */,
+				6FA40D0B1CB2E4C500AB50E9 /* DTSGameView.m in Sources */,
+				6FC93EE11CB6CFEE0039B7F2 /* SCLAlertViewResponder.m in Sources */,
+				6FC93EE31CB6CFEE0039B7F2 /* SCLButton.m in Sources */,
+				6FC93EC51CB6CFD10039B7F2 /* SAConfettiView.swift in Sources */,
+				6FC93EE41CB6CFEE0039B7F2 /* SCLSwitchView.m in Sources */,
+				6FA40D081CB2D89400AB50E9 /* DTSGame.m in Sources */,
+				6FC93EE51CB6CFEE0039B7F2 /* SCLTextView.m in Sources */,
+				6FA40CF21CB2CE0400AB50E9 /* DTSAppDelegate.m in Sources */,
+				6FA40D221CB493AD00AB50E9 /* UIColor+DTSColors.m in Sources */,
+				6FC93EE71CB6CFEE0039B7F2 /* UIImage+ImageEffects.m in Sources */,
+				6FC93EE21CB6CFEE0039B7F2 /* SCLAlertViewStyleKit.m in Sources */,
+				6FA40D191CB41E3900AB50E9 /* DTSGameViewController.m in Sources */,
+				6FA40CEF1CB2CE0400AB50E9 /* main.m in Sources */,
+				6F8781D91CBABEEA00DC2396 /* BetterSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FA40CF61CB2CE0400AB50E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA40CF71CB2CE0400AB50E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA40CFB1CB2CE0400AB50E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA40CFC1CB2CE0400AB50E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA40CFF1CB2CE0400AB50E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA40D041CB2CE1E00AB50E9 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FA40D001CB2CE0400AB50E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA40D041CB2CE1E00AB50E9 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA40D021CB2CE0400AB50E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "p07-ferber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iferber1.p07-ferber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "p07-ferber/Dots-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FA40D031CB2CE0400AB50E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "p07-ferber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iferber1.p07-ferber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "p07-ferber/Dots-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA40CE51CB2CE0400AB50E9 /* Build configuration list for PBXProject "p07-ferber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA40CFF1CB2CE0400AB50E9 /* Debug */,
+				6FA40D001CB2CE0400AB50E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA40D011CB2CE0400AB50E9 /* Build configuration list for PBXNativeTarget "Dots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA40D021CB2CE0400AB50E9 /* Debug */,
+				6FA40D031CB2CE0400AB50E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA40CE21CB2CE0400AB50E9 /* Project object */;
+}

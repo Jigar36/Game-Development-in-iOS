@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title.png" translatesAutoresizingMaskIntoConstraints="NO" id="nGV-jv-YRL">
+                                <rect key="frame" x="20" y="67" width="560" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ggw-aI-ltd"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxK-iw-Mrz">
+                                <rect key="frame" x="161" y="406" width="278" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="hJW-iI-iWQ"/>
+                                    <constraint firstAttribute="width" constant="278" id="meg-lG-sGu"/>
+                                </constraints>
+                                <state key="normal" image="PlayButton.png"/>
+                                <connections>
+                                    <segue destination="GEF-1K-xUE" kind="presentation" id="7cW-d5-Uyz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nGV-jv-YRL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="d3Z-fo-WKh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sxK-iw-Mrz" secondAttribute="bottom" constant="94" id="iE5-Lo-gsr"/>
+                            <constraint firstItem="nGV-jv-YRL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="msh-KR-erc"/>
+                            <constraint firstItem="sxK-iw-Mrz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y1q-G4-TEA"/>
+                            <constraint firstItem="sxK-iw-Mrz" firstAttribute="centerX" secondItem="nGV-jv-YRL" secondAttribute="centerX" id="yDj-WI-Aqm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="305"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="KkV-Ks-1JV">
+            <objects>
+                <viewController id="GEF-1K-xUE" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IZC-FQ-bWF"/>
+                        <viewControllerLayoutGuide type="bottom" id="zgZ-3g-ar8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5cr-71-YUM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PL9-NB-1o4">
+                                <rect key="frame" x="0.0" y="189" width="600" height="221"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0y-s5-uMR">
+                                        <rect key="frame" x="167" y="8" width="251" height="87"/>
+                                        <color key="backgroundColor" red="0.26274509800000001" green="0.41176470590000003" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="87" id="YZy-Ok-uZF"/>
+                                            <constraint firstAttribute="width" constant="251" id="cKH-Ze-17f"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="42"/>
+                                        <size key="titleShadowOffset" width="2" height="0.0"/>
+                                        <state key="normal" title="REPLAY">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected">
+                                            <color key="titleShadowColor" red="0.066666666669999999" green="0.08235294118" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="GameOver:" destination="GEF-1K-xUE" eventType="touchUpInside" id="nsd-wj-x7g"/>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="yCt-oy-jIR"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9F2-fO-aCF">
+                                        <rect key="frame" x="182" y="103" width="73" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="eWv-Nd-cr0"/>
+                                            <constraint firstAttribute="width" constant="73" id="z7R-IM-OCK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                        <color key="textColor" red="0.2627450980392157" green="0.41176470588235292" blue="0.12941176470588237" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbT-Hh-GVx">
+                                        <rect key="frame" x="361" y="171" width="62" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="62" id="3uT-1G-Mp2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                        <color key="textColor" red="0.26274509800000001" green="0.41176470590000003" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nc1-Im-9D3">
+                                        <rect key="frame" x="356" y="107" width="73" height="38"/>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                        <color key="textColor" red="0.26274509800000001" green="0.41176470590000003" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="2" height="-1"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzy-WK-oK1">
+                                        <rect key="frame" x="291" y="107" width="22" height="36"/>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                        <color key="textColor" red="0.26274509800000001" green="0.41176470590000003" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbf-J3-GfQ">
+                                        <rect key="frame" x="291" y="171" width="22" height="36"/>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="30"/>
+                                        <color key="textColor" red="0.26274509800000001" green="0.41176470590000003" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="trophy.png" translatesAutoresizingMaskIntoConstraints="NO" id="AIh-g9-vUR">
+                                        <rect key="frame" x="192" y="163" width="53" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="53" id="Y4h-B0-OaR"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="AIh-g9-vUR" firstAttribute="centerY" secondItem="gbT-Hh-GVx" secondAttribute="centerY" constant="-0.5" id="Dpa-Bg-DWO"/>
+                                    <constraint firstItem="9F2-fO-aCF" firstAttribute="top" secondItem="PL9-NB-1o4" secondAttribute="top" constant="103" id="FRc-H2-6Yd"/>
+                                    <constraint firstItem="gbT-Hh-GVx" firstAttribute="trailing" secondItem="Nc1-Im-9D3" secondAttribute="trailing" constant="-6" id="Grb-CQ-SD8"/>
+                                    <constraint firstItem="AIh-g9-vUR" firstAttribute="centerX" secondItem="9F2-fO-aCF" secondAttribute="centerX" id="Iq9-oQ-FqL"/>
+                                    <constraint firstAttribute="width" constant="600" id="P5E-hy-dak"/>
+                                    <constraint firstItem="gbT-Hh-GVx" firstAttribute="trailing" secondItem="D0y-s5-uMR" secondAttribute="trailing" constant="5" id="PQK-4Z-0Ve"/>
+                                    <constraint firstItem="AIh-g9-vUR" firstAttribute="top" secondItem="9F2-fO-aCF" secondAttribute="bottom" constant="17" id="RQ8-OX-zLN"/>
+                                    <constraint firstItem="9F2-fO-aCF" firstAttribute="leading" secondItem="PL9-NB-1o4" secondAttribute="leading" constant="182" id="UN4-6M-42L"/>
+                                    <constraint firstItem="D0y-s5-uMR" firstAttribute="top" secondItem="PL9-NB-1o4" secondAttribute="topMargin" id="Yuy-In-hRE"/>
+                                    <constraint firstAttribute="bottom" secondItem="AIh-g9-vUR" secondAttribute="bottom" constant="8" id="aav-W1-m1a"/>
+                                    <constraint firstItem="gbT-Hh-GVx" firstAttribute="top" secondItem="Nc1-Im-9D3" secondAttribute="bottom" constant="26" id="eQn-0E-BBD"/>
+                                    <constraint firstAttribute="height" constant="221" id="ffu-wk-hHb"/>
+                                    <constraint firstAttribute="trailing" secondItem="gbT-Hh-GVx" secondAttribute="trailing" constant="177" id="gY4-Ur-1xF"/>
+                                    <constraint firstAttribute="bottom" secondItem="gbT-Hh-GVx" secondAttribute="bottom" constant="15" id="hO2-uJ-Pat"/>
+                                    <constraint firstItem="gbT-Hh-GVx" firstAttribute="leading" secondItem="Nc1-Im-9D3" secondAttribute="leading" constant="5" id="tKU-qP-0Sy"/>
+                                    <constraint firstItem="Nc1-Im-9D3" firstAttribute="top" secondItem="D0y-s5-uMR" secondAttribute="bottom" constant="12" id="vUa-Rx-aXq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PL9-NB-1o4" firstAttribute="centerY" secondItem="5cr-71-YUM" secondAttribute="centerY" id="G5U-eU-eyJ"/>
+                            <constraint firstItem="PL9-NB-1o4" firstAttribute="centerX" secondItem="5cr-71-YUM" secondAttribute="centerX" id="LTn-22-2q4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="FinalScore" destination="Nc1-Im-9D3" id="Nks-zW-1Bi"/>
+                        <outlet property="gameOver" destination="PL9-NB-1o4" id="kQ5-qa-BP2"/>
+                        <outlet property="goHome" destination="D0y-s5-uMR" id="opb-Jf-gy2"/>
+                        <outlet property="trofyCount" destination="gbT-Hh-GVx" id="X8W-gE-VNa"/>
+                        <outlet property="trophyImageView1" destination="AIh-g9-vUR" id="aCL-HO-Xaa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jnO-p6-aAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="317"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PlayButton.png" width="220" height="96"/>
+        <image name="title.png" width="554" height="54"/>
+        <image name="trophy.png" width="720" height="720"/>
+    </resources>
+</document>

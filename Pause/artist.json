@@ -1,0 +1,161 @@
+{
+  "artist":[
+     {
+       "name": "Coldplay",
+       "isSelected": "false"
+     },
+     {
+       "name": "Shawn Mendes",
+       "isSelected": "false"
+     },
+     {
+       "name": "One Direction",
+       "isSelected": "false"
+     },
+     {
+       "name": "Adele",
+       "isSelected": "false"
+     },
+     {
+       "name": "Selena Gomez",
+       "isSelected": "false"
+     },
+     {
+       "name": "Drake",
+       "isSelected": "false"
+     },
+     {
+       "name": "Fetty Wap",
+       "isSelected": "false"
+     },
+     {
+       "name": "Justin Bieber",
+       "isSelected": "false"
+     },
+     {
+       "name": "Elle King",
+       "isSelected": "false"
+     },
+     {
+       "name": "Demi Lovato",
+       "isSelected": "false"
+     },
+     {
+       "name": "Flo Rida",
+       "isSelected": "false"
+     },
+     {
+       "name": "Ed Sheeran",
+       "isSelected": "false"
+     },
+     {
+       "name": "Chris Brown",
+       "isSelected": "false"
+     },
+     {
+       "name": "Rihanna",
+       "isSelected": "false"
+     },
+     {
+       "name": "Charlie Puth",
+       "isSelected": "false"
+     },
+     {
+       "name": "Wiz Khalifa",
+       "isSelected": "false"
+     },
+     {
+       "name": "Jason Derulo",
+       "isSelected": "false"
+     },
+     {
+       "name": "Calvin Harris",
+       "isSelected": "false"
+     },
+     {
+       "name": "Missy Elliott",
+       "isSelected": "false"
+     },
+     {
+       "name": "Katy Perry",
+       "isSelected": "false"
+     },
+     {
+       "name": "Maroon 5",
+       "isSelected": "false"
+     },
+     {
+       "name": "Pitbull",
+       "isSelected": "false"
+     },
+     {
+       "name": "Eminem",
+       "isSelected": "false"
+     },
+
+     {
+       "name": "The Lumineers",
+       "isSelected": "false"
+     },
+     {
+       "name": "OneRepublic",
+       "isSelected": "false"
+     },
+     {
+       "name": "Paramore",
+       "isSelected": "false"
+     },
+     {
+       "name": "Olly Murs",
+       "isSelected": "false"
+     },
+     {
+       "name": "Ellie Goulding",
+       "isSelected": "false"
+     },
+     {
+       "name": "Beyoncé",
+       "isSelected": "false"
+     },
+     {
+       "name": "3 Doors Down",
+       "isSelected": "false"
+     },
+     {
+       "name": "Ludacris",
+       "isSelected": "false"
+     },
+     {
+       "name": "Nickelback",
+       "isSelected": "false"
+     },
+     {
+       "name": "Linkin Park",
+       "isSelected": "false"
+     },
+     {
+       "name": "Incubus",
+       "isSelected": "false"
+     },
+     {
+       "name": "50 Cent",
+       "isSelected": "false"
+     },
+     {
+       "name": "Justin Timberlake",
+       "isSelected": "false"
+     },
+     {
+       "name": "Snoop Dogg",
+       "isSelected": "false"
+     },
+     {
+       "name": "Kanye West",
+       "isSelected": "false"
+     },
+     {
+       "name": "12 Stones",
+       "isSelected": "false"
+     }
+  ]
+} 

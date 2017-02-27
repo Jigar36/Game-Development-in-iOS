@@ -1,0 +1,291 @@
+[
+    {
+        "identifier": "level_one",
+        "gravity": true,
+        "ball": {
+            "position": "{500, 600}",
+            "velocity": "{0, -500}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{500,200}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [],
+        "sequence": [1]
+    },
+    {
+        "identifier": "level_two",
+        "gravity": false,
+        "ball": {
+            "position": "{256,400}",
+            "velocity": "{1000,0}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{512,400}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 2,
+                "position": "{512,430}",
+                "size": "{600,5}",
+                "uses": 0
+            },
+            {
+                "type": 2,
+                "position": "{512,370}",
+                "size": "{600,5}",
+                "uses": 0
+            }
+        ],
+        "sequence": [1]
+    },
+    {
+        "identifier": "level_three",
+        "gravity": false,
+        "ball": {
+            "position": "{256,400}",
+            "velocity": "{1000,0}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{512,400}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 2,
+                "position": "{512,430}",
+                "size": "{600,5}",
+                "uses": 0
+            },
+            {
+                "type": 2,
+                "position": "{512,370}",
+                "size": "{600,5}",
+                "uses": 0
+            }
+        ],
+        "sequence": [1, 1]
+    },
+    {
+        "identifier": "level_four",
+        "gravity": false,
+        "ball": {
+            "position": "{256,400}",
+            "velocity": "{1000,0}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{512,400}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 2,
+                "position": "{512,430}",
+                "size": "{600,5}",
+                "uses": 0
+            },
+            {
+                "type": 2,
+                "position": "{512,370}",
+                "size": "{600,5}",
+                "uses": 0
+            }
+        ],
+        "sequence": [2]
+    },
+    {
+        "identifier": "level_five",
+        "gravity": false,
+        "ball": {
+            "position": "{256,400}",
+            "velocity": "{-1000,0}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{512,400}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 2,
+                "position": "{512,430}",
+                "size": "{600,5}",
+                "uses": 0
+            },
+            {
+                "type": 2,
+                "position": "{512,370}",
+                "size": "{600,5}",
+                "uses": 0
+            }
+        ],
+        "sequence": [2]
+    },
+    {
+        "identifier": "level_six",
+        "gravity": false,
+        "ball": {
+            "position": "{300,400}",
+            "velocity": "{2000,0}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{700,400}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 2,
+                "position": "{700,470}",
+                "size": "{200,5}",
+                "uses": 2
+            },
+            {
+                "type": 2,
+                "position": "{700,330}",
+                "size": "{200,5}",
+                "uses": 3
+            }
+        ],
+        "sequence": [1]
+    },
+    {
+        "identifier": "level_seven",
+        "gravity": false,
+        "ball": {
+            "position": "{512,192}",
+            "velocity": "{0,1100}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{512,384}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 4,
+                "position": "{512,576}",
+                "size": "{200,5}",
+                "rotation": 0,
+                "uses": 1
+            }
+        ],
+        "sequence": [1]
+    },
+    {
+        "identifier": "level_eight",
+        "gravity": true,
+        "ball": {
+            "position": "{300,300}",
+            "velocity": "{-1200,1100}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{800,300}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [],
+        "sequence": [1]
+    },
+    {
+        "identifier": "level_nine",
+        "gravity": true,
+        "ball": {
+            "position": "{300,300}",
+            "velocity": "{-1200,1100}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{800,300}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 4,
+                "position": "{500,530}",
+                "size": "{230,5}",
+                "rotation": 30,
+                "uses": 2
+            }
+        ],
+        "sequence": [1]
+    },
+    {
+        "identifier": "level_ten",
+        "gravity": true,
+        "ball": {
+            "position": "{300,300}",
+            "velocity": "{1200,1000}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{800,200}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 4,
+                "position": "{500,530}",
+                "size": "{230,5}",
+                "rotation": 30,
+                "uses": 1
+            }
+        ],
+        "sequence": [1, 1]
+    },
+    {
+        "identifier": "level_eleven",
+        "gravity": true,
+        "ball": {
+            "position": "{300,300}",
+            "velocity": "{1200,1000}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{800,200}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [
+            {
+                "type": 4,
+                "position": "{500,530}",
+                "size": "{230,5}",
+                "rotation": 30,
+                "uses": 1
+            }
+        ],
+        "sequence": [2]
+    },
+    {
+        "identifier": "level_twelve",
+        "gravity": true,
+        "ball": {
+            "position": "{128,640}",
+            "velocity": "{250,0}"
+        },
+        "goal": {
+            "type": 1,
+            "position": "{768,128}",
+            "size": "{100,50}"
+        },
+        "shapes":
+        [],
+        "sequence": [4]
+    }
+]

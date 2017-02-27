@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Uf4-8O-nEn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="eBe-2d-kIo">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Uf4-8O-nEn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Flo-fV-kUm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="J0T-a1-e9L">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="h8D-6C-dkM" kind="relationship" relationship="rootViewController" id="gv7-nD-PiW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a14-yb-TGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="437"/>
+        </scene>
+        <!--Intro-->
+        <scene sceneID="FMR-1j-j4a">
+            <objects>
+                <viewController title="Intro" id="h8D-6C-dkM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ig6-8Q-wGi"/>
+                        <viewControllerLayoutGuide type="bottom" id="HzG-wc-9Mf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="svm-kO-MEo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pentago" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AX7-9B-YHE">
+                                <rect key="frame" x="0.0" y="40" width="600" height="98.5"/>
+                                <color key="backgroundColor" red="0.92539304489999996" green="0.94119596480000001" blue="0.94496977329999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-UltraLightItalic" family="Avenir Next Condensed" pointSize="72"/>
+                                <color key="textColor" red="0.074898801740000007" green="0.62744671110000005" blue="0.52155798669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alg-h4-cnz">
+                                <rect key="frame" x="171" y="263" width="258" height="74"/>
+                                <color key="backgroundColor" red="0.074898801743984222" green="0.62744671106338501" blue="0.52155798673629761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="48"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="4" maxX="8" maxY="4"/>
+                                <state key="normal" title="New Game"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dsy-vc-Q99"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92539304494857788" green="0.94119596481323242" blue="0.9449697732925415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AX7-9B-YHE" firstAttribute="top" secondItem="ig6-8Q-wGi" secondAttribute="bottom" constant="20" id="CNE-u1-fT6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AX7-9B-YHE" secondAttribute="trailing" constant="-20" id="OeG-Wj-dJ3"/>
+                            <constraint firstItem="alg-h4-cnz" firstAttribute="centerX" secondItem="svm-kO-MEo" secondAttribute="centerX" id="atG-KB-Yxl"/>
+                            <constraint firstItem="alg-h4-cnz" firstAttribute="centerY" secondItem="svm-kO-MEo" secondAttribute="centerY" id="bgd-wX-A1X"/>
+                            <constraint firstItem="AX7-9B-YHE" firstAttribute="leading" secondItem="svm-kO-MEo" secondAttribute="leadingMargin" constant="-20" id="wvL-jr-SPJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WQ5-j1-tNy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ThR-XK-A0M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="499" y="437"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="Pentago" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.92539304494857788" green="0.94119596481323242" blue="0.9449697732925415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="39i-69-dIz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1238" y="437"/>
+        </scene>
+    </scenes>
+</document>
